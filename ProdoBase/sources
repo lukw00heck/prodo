@@ -1,0 +1,13 @@
+TARGETNAME=ProdoBase
+TARGETPATH=Debug
+TARGETTYPE=DRIVER
+
+# CRT_INC_PATH=$(CRT_INC_PATH) C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include
+# CRT_LIB_PATH=$(CRT_LIB_PATH) C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib
+
+SOURCES=Commons.c \
+	Driver.c \
+	Hook.c \
+	Lists.c \
+	Process.c \
+	ProdoMain.c \
